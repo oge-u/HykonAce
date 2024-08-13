@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Hykon Ace, web applications, AI solutions, innovative technology, customer support, Ecommerce, Payment Gateway, Nigeria, Bulk SMS, Voice SMS, IVR, video monetization, web design, hosting service, Data Reward Nigeria, content creation, event management, animations, consultations" name="keywords">
+    <meta content="Hykon Ace is an innovative technology company specializing in web applications and AI solutions. We provide Agent Smart AI which provides exceptional customer support, in-chat Ecommerce, and Payment Gateway integration to power your business growth. Our offerings include Bulk SMS, Voice SMS, IVR, video monetization, web design, hosting service, Data Reward Nigeria, content creation, event management, animations, and consultations. Based in Nigeria, Engati preferred partner" name="description">
+    
+    <!-- Add Open Graph meta tags for image -->
+    <meta property="og:image" content="https://hykonace.com/img/meta_img.jpg">
+    <meta property="og:image:secure_url" content="https://hykonace.com/img/meta_img.jpg">
+    <meta property="og:image:alt" content="Hykon Ace Logo">
+    <meta property="og:image:type" content="image/jpeg">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+    <title>Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a href="/" class="logo">
+                <img src="./Assets/logo.png" alt="Logo">
+            </a>
+            <span class="logos">HYKON ACE</span>
+            <div class="menu-toggle" id="menu-toggle">
+                <svg id="menu-icon" width="30" height="30" viewBox="0 0 24 24">
+                    <path d="M3 6h18M3 12h18M3 18h18" />
+                </svg>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li>
+                    <a href="#home" class="nav-item">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-item">About</a>
+                </li>
+                <li>
+                    <a href="#services" class="nav-item">Services</a>
+                </li>
+                <li>
+                    <a href="#projects" class="nav-item">Projects</a>
+                </li>
+                <li>
+                    <a href="#products" class="nav-item" id="products-link">Products<i class='bx bxs-chevron-down'></i></a>
+                    <div class="dropdown" id="dropdown">
+                        <a href="https://hykonace.com/asai/">AgentSmart Ai</a>
+                        <a href="/#product2">CheckAm Online</a>
+                        <a href="/#product3">Product 3</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="contact.html" class="nav-item">Contact</a>
+                </li>
+                <li>
+                    <a href="https://hykonace.com/asai/" class="primary-btn">AgentSmart Ai</a>
+                                    </li>
+            </ul>
+        </div>
+    </div>
+
+
+<!-- Contact Section -->
+<section class="contact-section" id="contact">
+  <div class="container">
+    <div class="contact-text">
+    <h2 class="section-title">Get In Touch</h2>
+  <p class="section-text">Feel free to contact us for quotes, pricing, billing, support and appointment.</p></div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <p><i class="fas fa-map-marker-alt"></i> 123 Nnebisi, Asaba, Nigeria</p>
+        <p><i class="fas fa-phone"></i> +234 354675 57</p>
+        <p><i class="fas fa-envelope"></i> info@hykonace.com</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="contact-form">
+        <h3>Send Us a Message</h3>
+        <form action="contact.php" method="post" enctype="multipart/form-data" target="_self" id="contact">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<div class="testimonials-section">
+  <h2 class="section-titles">What Our Clients Say</h2>
+  <div class="testimonial-slider">
+    <div class="testimonial-card">
+      <div class="testimonial-image" style="background-image: url('./Assets/t2.png');"></div>
+      <div class="testimonial-content">
+        <p class="testimonial-text">"This is the best service I have ever used. The team is professional and their work is top-notch."</p>
+        <h3 class="client-name">Cynthia Chick</h3>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="testimonial-image" style="background-image: url('./Assets/t6.png');"></div>
+      <div class="testimonial-content">
+        <p class="testimonial-text">"Amazing experience! I would highly recommend them to anyone looking for quality service."</p>
+        <h3 class="client-name">Micheal Okoro</h3>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="testimonial-image" style="background-image: url('./Assets/t3.jpg');"></div>
+      <div class="testimonial-content">
+        <p class="testimonial-text">"Amazing experience! I would highly recommend them to anyone looking for quality service."</p>
+        <h3 class="client-name">Oge Nancy</h3>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="testimonial-image" style="background-image: url('./Assets/t4.jpg');"></div>
+      <div class="testimonial-content">
+        <p class="testimonial-text">"Amazing experience! I would highly recommend them to anyone looking for quality service."</p>
+        <h3 class="client-name">Emmanuel Chidera</h3>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="testimonial-image" style="background-image: url('./Assets/t5.jpg');"></div>
+      <div class="testimonial-content">
+        <p class="testimonial-text">"Amazing experience! I would highly recommend them to anyone looking for quality service."</p>
+        <h3 class="client-name">Audu Ibrahim</h3>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="testimonial-image" style="background-image: url('./Assets/t1.jpg');"></div>
+      <div class="testimonial-content">
+        <p class="testimonial-text">"Their attention to detail is incredible. I am extremely satisfied with the results."</p>
+        <h3 class="client-name">Faith Mike</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">Hykon Ace</a>
+
+          <p class="text">
+            Maecenas pellentesque placerat quam, in finibus nisl tincidunt sed. Aliquam magna augue, malesuada ut
+            feugiat eget,
+            cursus eget felis.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Our links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Team</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Blog</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Our Services</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Strategy & Research</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Web Development</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Web Solution</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Digital Marketing</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">App Design</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Other links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQ</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms & Conditions</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Support</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Us</p>
+          </li>
+
+          <li class="footer-item">
+
+            <div class="footer-item-icon">
+              <ion-icon name="call"></ion-icon>
+            </div>
+
+            <div>
+              <a href="tel:+2484214313" class="footer-item-link">+234-421-4313</a>
+              <a href="tel:+2486871365" class="footer-item-link">+234-687-1365</a>
+            </div>
+
+          </li>
+
+          <li class="footer-item">
+
+            <div class="footer-item-icon">
+              <ion-icon name="mail"></ion-icon>
+            </div>
+
+            <div>
+              <a href="mailto:info@hykonace.com" class="footer-item-link">info@hykonace.com</a>
+              <a href="mailto:help@hykonace.com" class="footer-item-link">help@hykonace.com</a>
+            </div>
+
+          </li>
+
+          <li class="footer-item">
+
+            <div class="footer-item-icon">
+              <ion-icon name="location"></ion-icon>
+            </div>
+
+            <address class="footer-item-link">
+              Asaba, Delta State, Nigeria
+            </address>
+
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="copyright">
+        &copy; 2024 <a href="#" class="copyright-link">Hykonace</a>. All Right Reserved
+      </p>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top  active" aria-label="Go To Top" data-go-top>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+  <a href="#top" class="go-top2  active" aria-label="Go To Top" data-go-top>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+</body>
+</html>
